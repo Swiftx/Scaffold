@@ -1,0 +1,23 @@
+{
+  "name": "swiftx/scaffold",
+  "type": "library",
+  "description": "Swiftx Framework 脚手架",
+  "keywords": ["Scaffold","Swiftx"],
+  "homepage": "https://github.com/Swiftx/Scaffold",
+  "license": "GPL",
+  "authors": [
+    {
+      "name" : "胡永强",
+      "email": "odaytudio@gmail.com",
+      "role" : "Developer"
+    }
+  ],
+  "require": {
+    "php": ">=7.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "Swiftx\\Http\\": "library/"
+    }
+  }
+}
